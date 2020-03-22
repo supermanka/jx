@@ -1,0 +1,231 @@
+{
+    "name" : "jixu",
+    "appid" : "__UNI__3048E31",
+    "description" : "jixu",
+    "versionName" : "1.0.0",
+    "versionCode" : 101,
+    "transformPx" : false,
+    "app-plus" : {
+        /* 5+App特有相关 */
+        "usingComponents" : true,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "modules" : {},
+        /* 模块配置 */
+        "distribute" : {
+            /* 应用发布信息 */
+            "android" : {
+                /* android打包配置 */
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>"
+                ]
+            },
+            "ios" : {},
+            /* ios打包配置 */
+            "sdkConfigs" : {
+                "maps" : {},
+                "payment" : {}
+            }
+        },
+        "nativePlugins" : {
+            "mob-sharesdk" : {
+                "推特的AppKey" : "",
+                "新浪微博的AppKey" : "",
+                "Facebook_AppSecret" : "",
+                "推特的AppSecret" : "",
+                "FacebookMessage的AppKey" : "",
+                "QQ的AppSecret" : "",
+                "Facebook的RedirectUrl" : "",
+                "Facebook的AppKey" : "",
+                "推特的CallbackUri" : "",
+                "推特的shareByAppClient" : "",
+                "Facebook的shareByAppClient" : "",
+                "MobShareSDK的AppKey" : "",
+                "微信的AppKey" : "",
+                "新浪微博的CallbackUri" : "",
+                "QQ的AppKey" : "",
+                "新浪微博的RedirectUrl" : "",
+                "Facebook的CallbackUri" : "",
+                "QQ的shareByAppClient" : "",
+                "推特的RedirectUri" : "",
+                "微信的universalLink" : "",
+                "微信的AppSecret" : "",
+                "MobShareSDKAppSecret" : "",
+                "新浪微博的shareByAppClient" : "",
+                "新浪微博的AppSecret" : "",
+                "MobShareSDK的AppSecret" : "",
+                "Facebook的DisplayName" : "",
+                "__plugin_info__" : {
+                    "name" : "mob_sharesdk",
+                    "description" : "为开发者提供40+主流平台的分享与授权等社会化功能，效果稳定，完整清晰统计分享数据",
+                    "platforms" : "Android,iOS",
+                    "url" : "",
+                    "android_package_name" : "",
+                    "ios_bundle_id" : "",
+                    "isCloud" : false,
+                    "bought" : -1,
+                    "pid" : "",
+                    "parameters" : {
+                        "推特的AppKey" : {
+                            "des" : "Twitter_AppKey",
+                            "key" : "mobinfo:twitter:appkey",
+                            "value" : ""
+                        },
+                        "新浪微博的AppKey" : {
+                            "des" : "SinaWei_AppKey",
+                            "key" : "mobinfo:sina:appkey",
+                            "value" : ""
+                        },
+                        "Facebook_AppSecret" : {
+                            "des" : "Facebook_AppSecret",
+                            "key" : "mobinfo:facebook:appsecret",
+                            "value" : ""
+                        },
+                        "推特的AppSecret" : {
+                            "des" : "Twitter_AppSecret",
+                            "key" : "mobinfo:twitter:appsecret",
+                            "value" : ""
+                        },
+                        "FacebookMessage的AppKey" : {
+                            "des" : "FacebookMessage_AppKey",
+                            "key" : "mobinfo:facebookmessage:appkey",
+                            "value" : ""
+                        },
+                        "QQ的AppSecret" : {
+                            "des" : "AppSecret",
+                            "key" : "mobinfo:qq:appkey",
+                            "value" : ""
+                        },
+                        "Facebook的RedirectUrl" : {
+                            "des" : "Facebook_RedirectUrl",
+                            "key" : "mobinfo:facebook:redirecturl",
+                            "value" : ""
+                        },
+                        "Facebook的AppKey" : {
+                            "des" : "Facebook_AppKey",
+                            "key" : "FacebookAppID",
+                            "value" : ""
+                        },
+                        "推特的CallbackUri" : {
+                            "des" : "Twitter_CallbackUri",
+                            "key" : "Twitter_CallbackUri",
+                            "value" : ""
+                        },
+                        "推特的shareByAppClient" : {
+                            "des" : "Twitter_shareByAppClient",
+                            "key" : "Twitter_shareByAppClient",
+                            "value" : ""
+                        },
+                        "Facebook的shareByAppClient" : {
+                            "des" : "Facebook_shareByAppClient",
+                            "key" : "Facebook_shareByAppClient",
+                            "value" : ""
+                        },
+                        "MobShareSDK的AppKey" : {
+                            "des" : "MOBAppKey",
+                            "key" : "mobinfo:MOBAppKey",
+                            "value" : ""
+                        },
+                        "微信的AppKey" : {
+                            "des" : "Wechat_AppKey",
+                            "key" : "mobinfo:wechat:appkey",
+                            "value" : ""
+                        },
+                        "新浪微博的CallbackUri" : {
+                            "des" : "SinaWei_CallbackUri",
+                            "key" : "SinaWei_CallbackUri",
+                            "value" : ""
+                        },
+                        "QQ的AppKey" : {
+                            "des" : "AppKey",
+                            "key" : "mobinfo:qq:appid",
+                            "value" : ""
+                        },
+                        "新浪微博的RedirectUrl" : {
+                            "des" : "SinaWei_RedirectUrl",
+                            "key" : "mobinfo:sina:redirecturl",
+                            "value" : ""
+                        },
+                        "Facebook的CallbackUri" : {
+                            "des" : "Facebook_CallbackUri",
+                            "key" : "Facebook_CallbackUri",
+                            "value" : ""
+                        },
+                        "QQ的shareByAppClient" : {
+                            "des" : "QQ_shareByAppClient",
+                            "key" : "QQ_shareByAppClient",
+                            "value" : ""
+                        },
+                        "推特的RedirectUri" : {
+                            "des" : "Twitter_RedirectUri",
+                            "key" : "mobinfo:twitter:redirecturl",
+                            "value" : ""
+                        },
+                        "微信的universalLink" : {
+                            "des" : "Wechat_UniversalLink",
+                            "key" : "mobinfo:wechat:universalLink",
+                            "value" : ""
+                        },
+                        "微信的AppSecret" : {
+                            "des" : "Wechat_AppSecret",
+                            "key" : "mobinfo:wechat:appsecret",
+                            "value" : ""
+                        },
+                        "MobShareSDKAppSecret" : {
+                            "des" : "MOBAppSecret",
+                            "key" : "MOBAppSecret",
+                            "value" : ""
+                        },
+                        "新浪微博的shareByAppClient" : {
+                            "des" : "SinaWei_shareByAppClient",
+                            "key" : "SinaWei_shareByAppClient",
+                            "value" : ""
+                        },
+                        "新浪微博的AppSecret" : {
+                            "des" : "SinaWei_AppSecret",
+                            "key" : "mobinfo:sina:appsecret",
+                            "value" : ""
+                        },
+                        "MobShareSDK的AppSecret" : {
+                            "des" : "MOBAppSecret",
+                            "key" : "mobinfo:MOBAppSecret",
+                            "value" : ""
+                        },
+                        "Facebook的DisplayName" : {
+                            "des" : "Facebook_DisplayName",
+                            "key" : "mobinfo:facebook:displayname",
+                            "value" : ""
+                        }
+                    }
+                }
+            }
+        }
+    },
+    /* SDK配置 */
+    "quickapp" : {},
+    /* 快应用特有相关 */
+    "mp-weixin" : {
+        /* 小程序特有相关 */
+        "usingComponents" : true,
+        "appid" : "",
+        "setting" : {
+            "urlCheck" : true
+        }
+    }
+}
